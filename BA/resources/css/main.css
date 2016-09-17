@@ -1,0 +1,17 @@
+@CHARSET "UTF-8";
+*, body { font-size: 14px;margin: 0;padding: 0;}
+ol,ul{ list-style:none;}
+a { text-decoration: none;}
+a:hover { text-decoration: underline;}
+.login-input-left { margin-left: 20px;}
+.login-mark { width: 220px;margin-right:-3px;vertical-align:middle;}
+#logout { color: #fff;}
+.ba-header { background: #2A3F5D;color: #fff;font-weight: bold;padding-top: 4px;}
+a:focus { outline: none;}
+.msg { color: red; font-weight: bold; }
+/* 覆写htmleditor的样式 */
+.x-htmleditor-iframe { min-height: 500px; height: 100%;}
+/* 覆写htmleditor源码文件编辑框的样式 */
+.x-html-editor-wrap textarea { background-color: white;font: 300 13px helvetica,arial,verdana,sans-serif;resize: none;height: 100%;width: 100%;}
+
+

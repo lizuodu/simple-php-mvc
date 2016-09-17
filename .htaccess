@@ -1,0 +1,13 @@
+<ifModule rewrite_module>
+
+RewriteEngine On
+RewriteBase /
+
+# URL重写
+# RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+RewriteRule post-show-id-(\d+)\.html$ index.php?url=post/show/id/$1 [PT]
+RewriteRule post-tag-(.+)\.html$ index.php?url=post/tag/id/$1 [PT]
+RewriteRule search.html$ index.php?url=post/search [PT]
+RewriteRule me.html index.php?url=home/me [PT]
+
+</ifModule>
